@@ -15,13 +15,13 @@ jobs:
       - uses: actions-ecosystem/action-get-merged-pull-request@v1
         id: get-merged-pull-request
         with:
-          github_token: ${{ secrets.GH_PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions-ecosystem/action-release-label@v1
         id: release-label
         if: ${{ steps.get-merged-pull-request.outputs.title != null }}
         with:
-          github_token: ${{ secrets.GH_PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: ${{ steps.get-merged-pull-request.outputs.labels }}
 
       - uses: actions-ecosystem/action-get-latest-tag@v1
