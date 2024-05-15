@@ -49,3 +49,12 @@ jobs:
         with:
           tag: ${{ steps.bump-semver.outputs.new_version }}
           message: "${{ steps.bump-semver.outputs.new_version }}: PR #${{ steps.get-merged-pull-request.outputs.number }} ${{ steps.get-merged-pull-request.outputs.title }}"
+
+      - uses: peter-evans/repository-dispatch@v1
+        if: ${{ steps.bump-semver.outputs.new_version != null }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repository: devniel93/my-openapi-changes
+
+          event-type: publish-event
+          client-payload: '{"new-tag": "${{ steps.bump-semver.outputs.new_version }}", "release-notes": "${{ steps.regex-match.outputs.group1 }}"}'
