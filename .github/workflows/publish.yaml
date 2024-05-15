@@ -5,8 +5,8 @@ on:
     types: [publish-event]
 
 jobs:
-  release_and_brew:
-    name: Release and bump homebrew version
+  release_format:
+    name: Generate release format
     runs-on: ubuntu-latest
 
     steps:

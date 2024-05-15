@@ -10,12 +10,9 @@ set -e
 INSTALL_DIR=${INSTALL_DIR:-"/usr/local/bin"}
 BINARY_NAME=${BINARY_NAME:-"openapi-changes"}
 
-#REPO_NAME="pb33f/openapi-changes"
 REPO_NAME="devniel93/my-openapi-changes"
-#ISSUE_URL="https://github.com/pb33f/openapi-changes/issues/new"
 ISSUE_URL="https://github.com/devniel93/my-openapi-changes/issues/new"
 
-# get_latest_release "pb33f/openapi-changes"
 get_latest_release() {
   curl --silent "https://api.github.com/repos/$1/releases/latest" | # Get latest release from GitHub api
     grep '"tag_name":' |                                            # Get tag line
@@ -197,4 +194,3 @@ EOF
 }
 
 main
-
