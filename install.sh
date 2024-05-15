@@ -104,8 +104,6 @@ do_checksum() {
   checksum_url=$(get_checksum_url $version)
   get_checksum_url $version
   expected_checksum=$(curl -sL $checksum_url | grep $asset_name | awk '{print $1}')
-  echo "este es expected_checksum: $expected_checksum"
-
 
   if command_exists sha256sum; then
     checksum=$(sha256sum $asset_name | awk '{print $1}')
@@ -137,7 +135,6 @@ do_install_binary() {
   }
 
   local tmp_dir=$(get_tmp_dir)
-  echo "ESTE ES EL TEMP DIR: $tmp_dir"
 
   # Download tar.gz to tmp directory
   echo "Downloading $download_url"
