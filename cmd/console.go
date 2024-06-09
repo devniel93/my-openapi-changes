@@ -13,9 +13,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/pb33f/openapi-changes/git"
-	"github.com/pb33f/openapi-changes/model"
-	"github.com/pb33f/openapi-changes/tui"
+	"github.com/devniel93/my-openapi-changes/git"
+	"github.com/devniel93/my-openapi-changes/model"
+	"github.com/devniel93/my-openapi-changes/tui"
 	"github.com/pterm/pterm"
 	"github.com/spf13/cobra"
 	"github.com/twinj/uuid"

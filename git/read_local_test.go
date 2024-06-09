@@ -5,7 +5,7 @@ package git
 
 import (
 	"context"
-	"github.com/pb33f/openapi-changes/model"
+	"github.com/devniel93/my-openapi-changes/model"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"
