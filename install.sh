@@ -4,7 +4,6 @@ set -e
 # Adapted/Copied from https://raw.githubusercontent.com/railwayapp/cli/master/install.sh
 #
 # Designed for quick installs over the network and CI/CD
-#   sh -c "$(curl -sSL https://pb33f.io/openapi-changes/install.sh)"
 #
 
 INSTALL_DIR=${INSTALL_DIR:-"/usr/local/bin"}
