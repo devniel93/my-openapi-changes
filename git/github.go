@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/pb33f/openapi-changes/model"
+	"github.com/devniel93/my-openapi-changes/model"
 	"io"
 	"net"
 	"net/http"

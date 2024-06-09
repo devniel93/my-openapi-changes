@@ -4,7 +4,7 @@
 package main
 
 import (
-	"github.com/pb33f/openapi-changes/cmd"
+	"github.com/devniel93/my-openapi-changes/cmd"
 	"time"
 )
 

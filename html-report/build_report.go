@@ -8,8 +8,8 @@ import (
 	_ "embed"
 	"encoding/json"
 	"fmt"
-	"github.com/pb33f/openapi-changes/builder"
-	"github.com/pb33f/openapi-changes/model"
+	"github.com/devniel93/my-openapi-changes/builder"
+	"github.com/devniel93/my-openapi-changes/model"
 	"text/template"
 	"time"
 )
@@ -143,8 +143,8 @@ func (html *htmlReport) GenerateReport(test, useCDN, embedded bool) []byte {
 	reportData := &ReportData{
 		BundledJS:    bundledJS,
 		BundledCSS:   bundledCSS,
-		JsCDN:        "https://pb33f.github.io/openapi-changes/html-report/ui/build/static/bundle.js",
-		CssCDN:       "https://pb33f.github.io/openapi-changes/html-report/ui/build/static/bundle.css",
+		JsCDN:        "https://devniel93.github.io/my-openapi-changes/html-report/ui/build/static/bundle.js",
+		CssCDN:       "https://devniel93.github.io/my-openapi-changes/html-report/ui/build/static/bundle.css",
 		Report:       string(data),
 		ReportData:   html.model,
 		Generated:    time.Now(),

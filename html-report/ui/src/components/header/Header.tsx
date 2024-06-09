@@ -45,7 +45,7 @@ export const Header = () => {
     return (
         <header>
             {button}
-            <a href="https://github.com/pb33f/openapi-changes">
+            <a href="https://github.com/devniel93/my-openapi-changes">
                 OpenAPI changes report
             </a>
             <span className='report-generated'>Report Generated: {new Date(report.dateGenerated).toLocaleString()}</span>

@@ -7,7 +7,7 @@ import (
 	v3 "github.com/pb33f/libopenapi/datamodel/low/v3"
 	wcModel "github.com/pb33f/libopenapi/what-changed/model"
 	"github.com/pb33f/libopenapi/what-changed/reports"
-	"github.com/pb33f/openapi-changes/model"
+	"github.com/devniel93/my-openapi-changes/model"
 	"github.com/twinj/uuid"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
