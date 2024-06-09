@@ -6,7 +6,7 @@ package builder
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/pb33f/libopenapi"
+	"github.com/devniel93/libopenapi"
 	"os"
 	"testing"
 )

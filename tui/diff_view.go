@@ -6,7 +6,7 @@ package tui
 import (
 	"fmt"
 	"github.com/gdamore/tcell/v2"
-	whatChanged "github.com/pb33f/libopenapi/what-changed/model"
+	whatChanged "github.com/devniel93/libopenapi/what-changed/model"
 	"github.com/rivo/tview"
 	"strings"
 )

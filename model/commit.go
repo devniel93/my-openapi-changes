@@ -4,8 +4,8 @@
 package model
 
 import (
-	"github.com/pb33f/libopenapi"
-	"github.com/pb33f/libopenapi/what-changed/model"
+	"github.com/devniel93/libopenapi"
+	"github.com/devniel93/libopenapi/what-changed/model"
 	"time"
 )
 
