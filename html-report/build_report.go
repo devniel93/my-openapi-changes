@@ -8,8 +8,8 @@ import (
 	_ "embed"
 	"encoding/json"
 	"fmt"
-	"github.com/pb33f/openapi-changes/builder"
-	"github.com/pb33f/openapi-changes/model"
+	"github.com/devniel93/my-openapi-changes/builder"
+	"github.com/devniel93/my-openapi-changes/model"
 	"text/template"
 	"time"
 )

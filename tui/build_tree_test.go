@@ -10,7 +10,7 @@ import (
 	"testing"
 )
 
-// reported in https://github.com/pb33f/openapi-changes/issues/115
+// reported in https://github.com/devniel93/my-openapi-changes/issues/115
 func TestBuildTreeModel_SliceOfChanges(t *testing.T) {
 
 	// create a dummy slice of whatChangedModel slice

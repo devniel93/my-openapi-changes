@@ -8,7 +8,7 @@ import (
 	"github.com/gdamore/tcell/v2"
 	"github.com/pb33f/libopenapi"
 	whatChangedModel "github.com/pb33f/libopenapi/what-changed/model"
-	"github.com/pb33f/openapi-changes/model"
+	"github.com/devniel93/my-openapi-changes/model"
 	"github.com/rivo/tview"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/gdamore/tcell/v2"
 	whatChanged "github.com/pb33f/libopenapi/what-changed/model"
-	"github.com/pb33f/openapi-changes/model"
+	"github.com/devniel93/my-openapi-changes/model"
 	"github.com/pterm/pterm"
 	"github.com/rivo/tview"
 )

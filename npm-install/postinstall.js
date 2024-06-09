@@ -11,7 +11,7 @@ async function install() {
     if (process.platform === "android") {
         console.log("Installing, may take a moment...");
         const cmd =
-            "pkg upgrade && pkg install golang git -y && git clone https://github.com/pb33f/openapi-changes.git && cd cli/ && go build -o $PREFIX/bin/openapi-changes";
+            "pkg upgrade && pkg install golang git -y && git clone https://github.com/devniel93/my-openapi-changes.git && cd cli/ && go build -o $PREFIX/bin/openapi-changes";
         execSync(cmd, { encoding: "utf-8" });
         console.log("Installation successful!");
         return;
