@@ -1,4 +1,4 @@
-module devniel93/my-openapi-changes
+module github.com/devniel93/my-openapi-changes
 
 go 1.21
 
