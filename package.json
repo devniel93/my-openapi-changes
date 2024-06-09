@@ -1,5 +1,5 @@
 {
-  "name": "@pb33f/openapi-changes",
+  "name": "@devniel93/my-openapi-changes",
   "version": "0.0.0",
   "description": "The world's sexiest and most detailed OpenAPI diff/changelog tool",
   "type": "module",
@@ -8,7 +8,7 @@
   "homepage": "https://pb33f.io/openapi-changes/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pb33f/openapi-changes.git"
+    "url": "git+https://github.com/devniel93/my-openapi-changes.git"
   },
   "engines": {
     "node": ">=16.0.0"
@@ -28,7 +28,7 @@
     "tar": "^6.1.11"
   },
   "bugs": {
-    "url": "https://github.com/pb33f/openapi-changes/issues"
+    "url": "https://github.com/devniel93/my-openapi-changes/issues"
   },
   "main": "index.js"
 }
