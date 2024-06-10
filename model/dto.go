@@ -1,10 +1,10 @@
-// Copyright 2023 Princess B33f Heavy Industries / Dave Shanley
+
 // SPDX-License-Identifier: MIT
 
 package model
 
 import (
-	wcModel "github.com/pb33f/libopenapi/what-changed/model"
+	wcModel "github.com/devniel93/libopenapi/what-changed/model"
 )
 
 type HTMLReportItem struct {

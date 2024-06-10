@@ -1,12 +1,12 @@
-// Copyright 2022 Princess B33f Heavy Industries / Dave Shanley
+
 // SPDX-License-Identifier: MIT
 
 package cmd
 
 import (
 	"fmt"
-	v3 "github.com/pb33f/libopenapi/datamodel/low/v3"
-	wcModel "github.com/pb33f/libopenapi/what-changed/model"
+	v3 "github.com/devniel93/libopenapi/datamodel/low/v3"
+	wcModel "github.com/devniel93/libopenapi/what-changed/model"
 	"github.com/pterm/pterm"
 	"github.com/pterm/pterm/putils"
 	"golang.org/x/text/cases"

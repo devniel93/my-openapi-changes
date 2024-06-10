@@ -1,4 +1,4 @@
-// Copyright 2022 Princess B33f Heavy Industries / Dave Shanley
+
 // SPDX-License-Identifier: MIT
 
 package cmd
@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/pb33f/libopenapi/what-changed/reports"
+	"github.com/devniel93/libopenapi/what-changed/reports"
 	"github.com/devniel93/my-openapi-changes/git"
 	"github.com/devniel93/my-openapi-changes/model"
 	"github.com/pterm/pterm"

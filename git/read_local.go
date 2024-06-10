@@ -1,4 +1,4 @@
-// Copyright 2022 Princess B33f Heavy Industries / Dave Shanley
+
 // SPDX-License-Identifier: MIT
 
 package git
@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 	"github.com/araddon/dateparse"
-	"github.com/pb33f/libopenapi"
-	"github.com/pb33f/libopenapi/datamodel"
+	"github.com/devniel93/libopenapi"
+	"github.com/devniel93/libopenapi/datamodel"
 	"github.com/devniel93/my-openapi-changes/model"
 	"github.com/pterm/pterm"
 	"log/slog"

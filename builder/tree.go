@@ -1,12 +1,12 @@
-// Copyright 2022 Princess B33f Heavy Industries / Dave Shanley
+
 // SPDX-License-Identifier: MIT
 
 package builder
 
 import (
-	v3 "github.com/pb33f/libopenapi/datamodel/low/v3"
-	wcModel "github.com/pb33f/libopenapi/what-changed/model"
-	"github.com/pb33f/libopenapi/what-changed/reports"
+	v3 "github.com/devniel93/libopenapi/datamodel/low/v3"
+	wcModel "github.com/devniel93/libopenapi/what-changed/model"
+	"github.com/devniel93/libopenapi/what-changed/reports"
 	"github.com/devniel93/my-openapi-changes/model"
 	"github.com/twinj/uuid"
 	"golang.org/x/text/cases"
