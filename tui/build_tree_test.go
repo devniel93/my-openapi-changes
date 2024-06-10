@@ -1,10 +1,10 @@
 // Copyright 2023-2024 Princess Beef Heavy Industries, LLC / Dave Shanley
-// https://pb33f.io
+// https://devniel93.io
 
 package tui
 
 import (
-	whatChangedModel "github.com/pb33f/libopenapi/what-changed/model"
+	whatChangedModel "github.com/devniel93/libopenapi/what-changed/model"
 	"github.com/rivo/tview"
 	"github.com/stretchr/testify/assert"
 	"testing"

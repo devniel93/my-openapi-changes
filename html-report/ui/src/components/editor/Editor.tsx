@@ -103,8 +103,8 @@ export function EditorComponent(props: EditorComponentProps) {
             }
         };
         // @ts-ignore
-        monaco.editor.defineTheme("pb33f", options);
-        monaco.editor.setTheme('pb33f');
+        monaco.editor.defineTheme("devniel93", options);
+        monaco.editor.setTheme('devniel93');
 
         if (currentChange) {
             let line: number;
@@ -169,7 +169,7 @@ export function EditorComponent(props: EditorComponentProps) {
                 original={originalSpec}
                 modified={modifiedSpec}
                 onMount={handleEditorDidMount}
-                theme={"pb33f"}
+                theme={"devniel93"}
                 language="yaml"
                 options={options}
             />

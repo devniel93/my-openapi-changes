@@ -1,10 +1,10 @@
 // Copyright 2023-2024 Princess Beef Heavy Industries, LLC / Dave Shanley
-// https://pb33f.io
+// https://devniel93.io
 
 package cmd
 
 import (
-	whatChanged "github.com/pb33f/libopenapi/what-changed/model"
+	whatChanged "github.com/devniel93/libopenapi/what-changed/model"
 	"github.com/devniel93/my-openapi-changes/model"
 )
 

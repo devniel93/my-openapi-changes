@@ -5,7 +5,7 @@ go 1.21
 require (
 	github.com/araddon/dateparse v0.0.0-20210429162001-6b43995a97de
 	github.com/gdamore/tcell/v2 v2.7.4
-	github.com/pb33f/libopenapi v0.16.2
+	github.com/devniel93/libopenapi v0.16.2
 	github.com/pterm/pterm v0.12.79
 	github.com/rivo/tview v0.0.0-20240424133105-0d02bb78244d
 	github.com/spf13/cobra v1.8.0
