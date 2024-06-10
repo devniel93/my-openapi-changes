@@ -1,6 +1,3 @@
-// Copyright 2023-2024 Princess Beef Heavy Industries, LLC / Dave Shanley
-// https://devniel93.io
-
 package cmd
 
 import (
